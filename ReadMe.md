@@ -1,6 +1,7 @@
 # VTD (View Tree Detail)
 
-**VTD** は、指定されたディレクトリ以下のファイル構造を表示し、GUIを通じてファイルを選択し、選択されたファイルの内容を表示するWindows用のコマンドラインツールです。本ツールはPython環境が不要なスタンドアロンの実行ファイルとして提供されています。
+**VTD** は、指定されたディレクトリ以下のファイル構造を表示し、GUIを通じてファイルを選択し、選択されたファイルの内容を表示するWindows用のコマンドラインツールです。
+ChatGPT等の生成AIを使ってモジュール構造化された複雑なプロジェクトを扱う際、AIが構造やファイルへの理解を持たせるのに苦労し、この手間をなくすためにこのコマンドツールを考えました。
 
 ---
 
@@ -33,16 +34,16 @@
 vtd -p test_tree
 ```
 #### GUI画面
-![GUI画面](./img/gui.jpg)
+![GUI画面](./img/gui.png)
 
 #### レスポンス
-[**vtd result**](./vtd_result.txt)のように、パス以下のファイルツリーと、GUIで指定したファイルの中身がコードブロックを使って出力されます。
+![レスポンス](./img/response.png)
 
 ---
 
 ## ダウンロード
 
-[**リリースページ**](https://github.com/yourusername/vtd/releases)から最新の`vtd.exe`をダウンロードしてください。
+[**リリースページ**](https://github.com/yutawtr1214/view-tree-detail/releases)から最新の`vtd.exe`をダウンロードしてください。
 
 ---
 
@@ -52,7 +53,7 @@ VTDをシステム全体でコマンドとして利用可能にするために�
 
 ### 1. 実行ファイルのダウンロード
 
-1. [リリースページ](https://github.com/yourusername/vtd/releases)にアクセスします。
+1. [リリースページ](https://github.com/yutawtr1214/view-tree-detail/releases)にアクセスします。
 2. 最新バージョンの`vtd.exe`をダウンロードします。
 
 ### 2. 実行ファイルの配置
