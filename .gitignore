@@ -1,0 +1,9 @@
+# python venv envieonment
+python_env/
+
+# python cache
+__pycache__/
+
+# pyinstaller build
+dist/
+build/
